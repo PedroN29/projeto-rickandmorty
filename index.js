@@ -13,7 +13,3 @@ function btntrocar() {
     document.getElementById('img').src = imagensarray[img];
     img++
 }
-
-
-
-//abrindo-olho.certo.jpg
