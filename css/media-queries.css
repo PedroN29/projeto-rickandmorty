@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    section#foto {
+        width: 80vw;
+        height: 300px;
+        margin: 10px auto;
+    }
+
+    img {
+        width: 280px;
+    }
+
+    main {
+        display: block;
+        justify-items: center;
+    }
+
+    section.principal {
+        display: block
+    }
+
+    section.txt {
+        width: 80vw;
+    }
+}
