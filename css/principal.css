@@ -43,7 +43,12 @@ h1 {
     text-shadow: 2px 2px #003100;
 }
 
-nav button#btn {
+nav {
+    display: flex;
+    gap: 5px;
+}
+
+nav button.btn {
     display: block;
     margin: 10px auto;
     border: none;
@@ -57,10 +62,19 @@ nav button#btn {
     transition: 0.2s;
 }
 
-button#btn:hover {
+button.btn:hover {
     background-color: var(--cor3);
     color: var(--cor0);
     border: 1px solid var(--cor0);
+}
+
+button.btn a {
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+button.btn a:hover {
+    color: var(--cor0);
 }
 
 main {

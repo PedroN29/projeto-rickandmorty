@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.video {
+    grid-row-start: 2;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
