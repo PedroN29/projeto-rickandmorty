@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "rickandmorty";
+    src: url(..//fontes/get-schwifty/get_schwifty.ttf);
+}
+
+:root {
+    --cor0:#0E890A;
+    --cor1:#17C10B;
+    --cor2:#49CA16;
+    --cor3:#86DE18;
+    --cor4:#FDF9FB;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../imagens/background.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    margin: auto;
+    height: 100px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h1 {
+    font-family: "rickandmorty",Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: var(--cor1);
+    text-shadow: 2px 2px #003100;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+}
+
+nav button.btn {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: var(--cor0);
+    color: var(--cor3);
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.2s;
+}
+
+button.btn:hover {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    border: 1px solid var(--cor0);
+}
+
+button.btn a {
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+button.btn a:hover {
+    color: var(--cor0);
+}
+
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #003100;
+    margin: 10px auto;
+    width: 80vw;
+}
+
+section.txt {
+    width: 300px;
+    text-align: center; 
+}
+
+.txt  p {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: var(--cor3);
+}
+
+footer {
+    background-color: var(--cor0);
+    height: 20px;
+    display: flex;
+}
