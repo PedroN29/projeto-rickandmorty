@@ -24,3 +24,13 @@
         width: 80vw;
     }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    section.principal {
+        column-gap: 10px;
+    }
+
+    section.txt {
+        width: 280px;
+    }
+}
