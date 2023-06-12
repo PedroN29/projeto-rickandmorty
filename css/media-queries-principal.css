@@ -26,11 +26,26 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    section#foto {
+        width: 80vw;
+        height: 300px;
+        margin: 10px auto;
+    }
+
+    img {
+        width: 340px;
+    }
+
+    main {
+        display: block;
+        justify-items: center;
+    }
+
     section.principal {
-        column-gap: 10px;
+        display: block
     }
 
     section.txt {
-        width: 280px;
+        width: 80vw;
     }
 }
